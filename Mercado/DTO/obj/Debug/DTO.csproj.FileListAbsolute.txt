@@ -1,0 +1,5 @@
+C:\Users\Tafar\Documents\GitHub\Estudos-Csharp-Mercado\Mercado\DTO\bin\Debug\DTO.dll
+C:\Users\Tafar\Documents\GitHub\Estudos-Csharp-Mercado\Mercado\DTO\bin\Debug\DTO.pdb
+C:\Users\Tafar\Documents\GitHub\Estudos-Csharp-Mercado\Mercado\DTO\obj\Debug\DTO.dll
+C:\Users\Tafar\Documents\GitHub\Estudos-Csharp-Mercado\Mercado\DTO\obj\Debug\DTO.pdb
+C:\Users\Tafar\Documents\GitHub\Estudos-Csharp-Mercado\Mercado\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache

@@ -1,0 +1,9 @@
+C:\Users\Tafar\Documents\GitHub\Estudos-Csharp-Mercado\Mercado\BLL\bin\Debug\BLL.dll
+C:\Users\Tafar\Documents\GitHub\Estudos-Csharp-Mercado\Mercado\BLL\bin\Debug\BLL.pdb
+C:\Users\Tafar\Documents\GitHub\Estudos-Csharp-Mercado\Mercado\BLL\bin\Debug\DAL.dll
+C:\Users\Tafar\Documents\GitHub\Estudos-Csharp-Mercado\Mercado\BLL\bin\Debug\DTO.dll
+C:\Users\Tafar\Documents\GitHub\Estudos-Csharp-Mercado\Mercado\BLL\bin\Debug\DAL.pdb
+C:\Users\Tafar\Documents\GitHub\Estudos-Csharp-Mercado\Mercado\BLL\bin\Debug\DTO.pdb
+C:\Users\Tafar\Documents\GitHub\Estudos-Csharp-Mercado\Mercado\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\Tafar\Documents\GitHub\Estudos-Csharp-Mercado\Mercado\BLL\obj\Debug\BLL.dll
+C:\Users\Tafar\Documents\GitHub\Estudos-Csharp-Mercado\Mercado\BLL\obj\Debug\BLL.pdb
