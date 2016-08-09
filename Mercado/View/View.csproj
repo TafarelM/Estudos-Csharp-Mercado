@@ -46,42 +46,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AcaoNaTela.cs" />
-    <Compile Include="ConsultarCategoria.cs">
+    <Compile Include="FrmConsultar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ConsultarCategoria.Designer.cs">
-      <DependentUpon>ConsultarCategoria.cs</DependentUpon>
+    <Compile Include="FrmConsultar.Designer.cs">
+      <DependentUpon>FrmConsultar.cs</DependentUpon>
     </Compile>
-    <Compile Include="ConsultarClienteFisico.cs">
+    <Compile Include="FrmManter.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ConsultarClienteFisico.Designer.cs">
-      <DependentUpon>ConsultarClienteFisico.cs</DependentUpon>
+    <Compile Include="FrmManter.Designer.cs">
+      <DependentUpon>FrmManter.cs</DependentUpon>
     </Compile>
-    <Compile Include="ConsultarProduto.cs">
+    <Compile Include="FrmManterCliente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ConsultarProduto.Designer.cs">
-      <DependentUpon>ConsultarProduto.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ManterCategoria.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ManterCategoria.Designer.cs">
-      <DependentUpon>ManterCategoria.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ManterClienteFisico.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ManterClienteFisico.Designer.cs">
-      <DependentUpon>ManterClienteFisico.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ManterProduto.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ManterProduto.Designer.cs">
-      <DependentUpon>ManterProduto.cs</DependentUpon>
+    <Compile Include="FrmManterCliente.Designer.cs">
+      <DependentUpon>FrmManterCliente.cs</DependentUpon>
     </Compile>
     <Compile Include="Menu.cs">
       <SubType>Form</SubType>
@@ -91,23 +72,14 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="ConsultarCategoria.resx">
-      <DependentUpon>ConsultarCategoria.cs</DependentUpon>
+    <EmbeddedResource Include="FrmConsultar.resx">
+      <DependentUpon>FrmConsultar.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ConsultarClienteFisico.resx">
-      <DependentUpon>ConsultarClienteFisico.cs</DependentUpon>
+    <EmbeddedResource Include="FrmManter.resx">
+      <DependentUpon>FrmManter.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ConsultarProduto.resx">
-      <DependentUpon>ConsultarProduto.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ManterCategoria.resx">
-      <DependentUpon>ManterCategoria.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ManterClienteFisico.resx">
-      <DependentUpon>ManterClienteFisico.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ManterProduto.resx">
-      <DependentUpon>ManterProduto.cs</DependentUpon>
+    <EmbeddedResource Include="FrmManterCliente.resx">
+      <DependentUpon>FrmManterCliente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>

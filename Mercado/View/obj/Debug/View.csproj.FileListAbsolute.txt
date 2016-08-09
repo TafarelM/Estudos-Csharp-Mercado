@@ -8,13 +8,10 @@ C:\Users\Tafar\Documents\GitHub\Estudos-Csharp-Mercado\Mercado\View\bin\Debug\BL
 C:\Users\Tafar\Documents\GitHub\Estudos-Csharp-Mercado\Mercado\View\bin\Debug\DTO.pdb
 C:\Users\Tafar\Documents\GitHub\Estudos-Csharp-Mercado\Mercado\View\bin\Debug\DAL.pdb
 C:\Users\Tafar\Documents\GitHub\Estudos-Csharp-Mercado\Mercado\View\obj\Debug\View.csprojResolveAssemblyReference.cache
-C:\Users\Tafar\Documents\GitHub\Estudos-Csharp-Mercado\Mercado\View\obj\Debug\View.ConsultarCategoria.resources
-C:\Users\Tafar\Documents\GitHub\Estudos-Csharp-Mercado\Mercado\View\obj\Debug\View.ManterCategoria.resources
-C:\Users\Tafar\Documents\GitHub\Estudos-Csharp-Mercado\Mercado\View\obj\Debug\View.ManterProduto.resources
 C:\Users\Tafar\Documents\GitHub\Estudos-Csharp-Mercado\Mercado\View\obj\Debug\View.Properties.Resources.resources
 C:\Users\Tafar\Documents\GitHub\Estudos-Csharp-Mercado\Mercado\View\obj\Debug\View.csproj.GenerateResource.Cache
 C:\Users\Tafar\Documents\GitHub\Estudos-Csharp-Mercado\Mercado\View\obj\Debug\View.exe
 C:\Users\Tafar\Documents\GitHub\Estudos-Csharp-Mercado\Mercado\View\obj\Debug\View.pdb
 C:\Users\Tafar\Documents\GitHub\Estudos-Csharp-Mercado\Mercado\View\obj\Debug\View.Menu.resources
-C:\Users\Tafar\Documents\GitHub\Estudos-Csharp-Mercado\Mercado\View\obj\Debug\View.ConsultarProduto.resources
-C:\Users\Tafar\Documents\GitHub\Estudos-Csharp-Mercado\Mercado\View\obj\Debug\View.ManterCliente.resources
+C:\Users\Tafar\Documents\GitHub\Estudos-Csharp-Mercado\Mercado\View\obj\Debug\View.FrmConsultar.resources
+C:\Users\Tafar\Documents\GitHub\Estudos-Csharp-Mercado\Mercado\View\obj\Debug\View.FrmManter.resources

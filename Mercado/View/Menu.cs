@@ -20,15 +20,11 @@ namespace View
         //MENU ITEM CADASTRAR PRODUTO
         private void menuItemCadastrarProduto_Click(object sender, EventArgs e)
         {
-            ManterProduto manterProduto = new ManterProduto();
-            manterProduto.ShowDialog();
         }
 
         //MENU ITEM CADASTRAR CATEGORIA
         private void menuItemCadastrarCategoria_Click(object sender, EventArgs e)
         {
-            ManterCategoria manterCategoria = new ManterCategoria(AcaoNaTela.Inserir, null);
-            manterCategoria.ShowDialog();
         }
 
 
@@ -36,15 +32,12 @@ namespace View
         //MENU ITEM CONSULTAR PRODUTO
         private void menuItemConsultarProduto_Click(object sender, EventArgs e)
         {
-            ConsultarProduto consultarProduto = new ConsultarProduto();
-            consultarProduto.ShowDialog();
         }
 
         //
         private void menuItemConsultarCategoria_Click(object sender, EventArgs e)
         {
-            ConsultarCategoria consultarCategoria = new ConsultarCategoria();
-            consultarCategoria.ShowDialog();
+
         }
 
         //

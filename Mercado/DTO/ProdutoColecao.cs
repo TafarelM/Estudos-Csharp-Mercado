@@ -2,7 +2,7 @@
 
 namespace DTO
 {
-    public class PessoaTipoColecao : List<PessoaTipo>
+    public class ProdutoColecao : List<Produto>
     {
     }
 }
