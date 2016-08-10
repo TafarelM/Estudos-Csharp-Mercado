@@ -19,7 +19,7 @@ namespace View
 
         private void FrmConsultar_Load(object sender, EventArgs e)
         {
-            dataGridViewPrincipal.AutoGenerateColumns = false;
+            //dataGridViewPrincipal.AutoGenerateColumns = false;
         }
     }
 }

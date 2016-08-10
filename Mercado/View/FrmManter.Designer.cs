@@ -30,7 +30,6 @@
         {
             this.panelBtn = new System.Windows.Forms.Panel();
             this.btnSalvar = new System.Windows.Forms.Button();
-            this.btnLimpar = new System.Windows.Forms.Button();
             this.btnFechar = new System.Windows.Forms.Button();
             this.panelPrincipal = new System.Windows.Forms.Panel();
             this.panelBtn.SuspendLayout();
@@ -40,7 +39,6 @@
             // 
             this.panelBtn.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panelBtn.Controls.Add(this.btnSalvar);
-            this.panelBtn.Controls.Add(this.btnLimpar);
             this.panelBtn.Controls.Add(this.btnFechar);
             this.panelBtn.Location = new System.Drawing.Point(12, 412);
             this.panelBtn.Name = "panelBtn";
@@ -49,21 +47,12 @@
             // 
             // btnSalvar
             // 
-            this.btnSalvar.Location = new System.Drawing.Point(500, 3);
+            this.btnSalvar.Location = new System.Drawing.Point(593, 3);
             this.btnSalvar.Name = "btnSalvar";
             this.btnSalvar.Size = new System.Drawing.Size(87, 64);
             this.btnSalvar.TabIndex = 0;
             this.btnSalvar.Text = "Salvar";
             this.btnSalvar.UseVisualStyleBackColor = true;
-            // 
-            // btnLimpar
-            // 
-            this.btnLimpar.Location = new System.Drawing.Point(593, 3);
-            this.btnLimpar.Name = "btnLimpar";
-            this.btnLimpar.Size = new System.Drawing.Size(87, 64);
-            this.btnLimpar.TabIndex = 0;
-            this.btnLimpar.Text = "Limpar";
-            this.btnLimpar.UseVisualStyleBackColor = true;
             // 
             // btnFechar
             // 
@@ -92,8 +81,6 @@
             this.Name = "FrmManter";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmManter";
-            this.Load += new System.EventHandler(this.FrmManter_Load);
-            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.FrmManter_KeyDown);
             this.panelBtn.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -103,7 +90,6 @@
 
         protected System.Windows.Forms.Panel panelBtn;
         protected System.Windows.Forms.Button btnSalvar;
-        protected System.Windows.Forms.Button btnLimpar;
         protected System.Windows.Forms.Button btnFechar;
         protected System.Windows.Forms.Panel panelPrincipal;
     }

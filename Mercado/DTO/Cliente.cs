@@ -13,6 +13,7 @@ namespace DTO
         public string cpf_cnpj { get; set; }
         public string rg_ie { get; set; }
         public string razaoSocial { get; set; }
+        public DateTime dataNascimento_Abertura { get; set; }
         public string sexo { get; set; }
         public string tipoCliente { get; set; }
         public string cep { get; set; }

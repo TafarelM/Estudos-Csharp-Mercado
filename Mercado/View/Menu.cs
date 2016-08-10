@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DTO;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -20,6 +21,8 @@ namespace View
         //MENU ITEM CADASTRAR PRODUTO
         private void menuItemCadastrarProduto_Click(object sender, EventArgs e)
         {
+            FrmManterProduto manterProduto = new FrmManterProduto();
+            manterProduto.ShowDialog();
         }
 
         //MENU ITEM CADASTRAR CATEGORIA
@@ -56,6 +59,18 @@ namespace View
         private void menuItemSair_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void clienteMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmManterCliente manterCliente = new FrmManterCliente(AcaoNaTela.Inserir, null);
+            manterCliente.ShowDialog();
+        }
+
+        private void clienteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmConsultarCliente consultarCliente = new FrmConsultarCliente();
+            consultarCliente.ShowDialog();
         }
     }
 }

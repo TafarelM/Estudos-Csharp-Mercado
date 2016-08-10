@@ -52,6 +52,12 @@
     <Compile Include="FrmConsultar.Designer.cs">
       <DependentUpon>FrmConsultar.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmConsultarCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConsultarCliente.Designer.cs">
+      <DependentUpon>FrmConsultarCliente.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmManter.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,6 +70,12 @@
     <Compile Include="FrmManterCliente.Designer.cs">
       <DependentUpon>FrmManterCliente.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmManterProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmManterProduto.Designer.cs">
+      <DependentUpon>FrmManterProduto.cs</DependentUpon>
+    </Compile>
     <Compile Include="Menu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,11 +87,17 @@
     <EmbeddedResource Include="FrmConsultar.resx">
       <DependentUpon>FrmConsultar.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmConsultarCliente.resx">
+      <DependentUpon>FrmConsultarCliente.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmManter.resx">
       <DependentUpon>FrmManter.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmManterCliente.resx">
       <DependentUpon>FrmManterCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmManterProduto.resx">
+      <DependentUpon>FrmManterProduto.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>

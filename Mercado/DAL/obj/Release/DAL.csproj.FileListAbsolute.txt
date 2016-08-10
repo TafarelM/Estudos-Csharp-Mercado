@@ -1,0 +1,8 @@
+C:\Users\Tafar\Documents\GitHub\Estudos-Csharp-Mercado\Mercado\DAL\bin\Release\DAL.dll.config
+C:\Users\Tafar\Documents\GitHub\Estudos-Csharp-Mercado\Mercado\DAL\bin\Release\DAL.dll
+C:\Users\Tafar\Documents\GitHub\Estudos-Csharp-Mercado\Mercado\DAL\bin\Release\DAL.pdb
+C:\Users\Tafar\Documents\GitHub\Estudos-Csharp-Mercado\Mercado\DAL\bin\Release\DTO.dll
+C:\Users\Tafar\Documents\GitHub\Estudos-Csharp-Mercado\Mercado\DAL\bin\Release\DTO.pdb
+C:\Users\Tafar\Documents\GitHub\Estudos-Csharp-Mercado\Mercado\DAL\obj\Release\DAL.csprojResolveAssemblyReference.cache
+C:\Users\Tafar\Documents\GitHub\Estudos-Csharp-Mercado\Mercado\DAL\obj\Release\DAL.dll
+C:\Users\Tafar\Documents\GitHub\Estudos-Csharp-Mercado\Mercado\DAL\obj\Release\DAL.pdb

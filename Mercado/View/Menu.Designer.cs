@@ -41,9 +41,11 @@
             this.cadastrarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuItemCadastrarProduto = new System.Windows.Forms.ToolStripMenuItem();
             this.menuItemCadastrarCategoria = new System.Windows.Forms.ToolStripMenuItem();
+            this.clienteMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.consultarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuItemConsultarProduto = new System.Windows.Forms.ToolStripMenuItem();
             this.menuItemConsultarCategoria = new System.Windows.Forms.ToolStripMenuItem();
+            this.clienteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStatus.SuspendLayout();
             this.menuStrip1.SuspendLayout();
@@ -54,9 +56,9 @@
             this.menuStatus.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel1,
             this.msHorario});
-            this.menuStatus.Location = new System.Drawing.Point(0, 302);
+            this.menuStatus.Location = new System.Drawing.Point(0, 394);
             this.menuStatus.Name = "menuStatus";
-            this.menuStatus.Size = new System.Drawing.Size(706, 22);
+            this.menuStatus.Size = new System.Drawing.Size(783, 22);
             this.menuStatus.TabIndex = 0;
             this.menuStatus.Text = "statusStrip1";
             // 
@@ -81,7 +83,7 @@
             this.helpToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(706, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(783, 24);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -134,7 +136,8 @@
             // 
             this.cadastrarToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.menuItemCadastrarProduto,
-            this.menuItemCadastrarCategoria});
+            this.menuItemCadastrarCategoria,
+            this.clienteMenuItem});
             this.cadastrarToolStripMenuItem.Name = "cadastrarToolStripMenuItem";
             this.cadastrarToolStripMenuItem.Size = new System.Drawing.Size(69, 20);
             this.cadastrarToolStripMenuItem.Text = "Cadastrar";
@@ -142,22 +145,30 @@
             // menuItemCadastrarProduto
             // 
             this.menuItemCadastrarProduto.Name = "menuItemCadastrarProduto";
-            this.menuItemCadastrarProduto.Size = new System.Drawing.Size(152, 22);
+            this.menuItemCadastrarProduto.Size = new System.Drawing.Size(125, 22);
             this.menuItemCadastrarProduto.Text = "Produto";
             this.menuItemCadastrarProduto.Click += new System.EventHandler(this.menuItemCadastrarProduto_Click);
             // 
             // menuItemCadastrarCategoria
             // 
             this.menuItemCadastrarCategoria.Name = "menuItemCadastrarCategoria";
-            this.menuItemCadastrarCategoria.Size = new System.Drawing.Size(152, 22);
+            this.menuItemCadastrarCategoria.Size = new System.Drawing.Size(125, 22);
             this.menuItemCadastrarCategoria.Text = "Categoria";
             this.menuItemCadastrarCategoria.Click += new System.EventHandler(this.menuItemCadastrarCategoria_Click);
+            // 
+            // clienteMenuItem
+            // 
+            this.clienteMenuItem.Name = "clienteMenuItem";
+            this.clienteMenuItem.Size = new System.Drawing.Size(125, 22);
+            this.clienteMenuItem.Text = "Cliente";
+            this.clienteMenuItem.Click += new System.EventHandler(this.clienteMenuItem_Click);
             // 
             // consultarToolStripMenuItem
             // 
             this.consultarToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.menuItemConsultarProduto,
-            this.menuItemConsultarCategoria});
+            this.menuItemConsultarCategoria,
+            this.clienteToolStripMenuItem});
             this.consultarToolStripMenuItem.Name = "consultarToolStripMenuItem";
             this.consultarToolStripMenuItem.Size = new System.Drawing.Size(70, 20);
             this.consultarToolStripMenuItem.Text = "Consultar";
@@ -165,16 +176,23 @@
             // menuItemConsultarProduto
             // 
             this.menuItemConsultarProduto.Name = "menuItemConsultarProduto";
-            this.menuItemConsultarProduto.Size = new System.Drawing.Size(152, 22);
+            this.menuItemConsultarProduto.Size = new System.Drawing.Size(125, 22);
             this.menuItemConsultarProduto.Text = "Produto";
             this.menuItemConsultarProduto.Click += new System.EventHandler(this.menuItemConsultarProduto_Click);
             // 
             // menuItemConsultarCategoria
             // 
             this.menuItemConsultarCategoria.Name = "menuItemConsultarCategoria";
-            this.menuItemConsultarCategoria.Size = new System.Drawing.Size(152, 22);
+            this.menuItemConsultarCategoria.Size = new System.Drawing.Size(125, 22);
             this.menuItemConsultarCategoria.Text = "Categoria";
             this.menuItemConsultarCategoria.Click += new System.EventHandler(this.menuItemConsultarCategoria_Click);
+            // 
+            // clienteToolStripMenuItem
+            // 
+            this.clienteToolStripMenuItem.Name = "clienteToolStripMenuItem";
+            this.clienteToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
+            this.clienteToolStripMenuItem.Text = "Cliente";
+            this.clienteToolStripMenuItem.Click += new System.EventHandler(this.clienteToolStripMenuItem_Click);
             // 
             // helpToolStripMenuItem
             // 
@@ -186,7 +204,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(706, 324);
+            this.ClientSize = new System.Drawing.Size(783, 416);
             this.Controls.Add(this.menuStatus);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
@@ -221,5 +239,7 @@
         private System.Windows.Forms.ToolStripMenuItem menuItemLogout;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
         private System.Windows.Forms.ToolStripStatusLabel msHorario;
+        private System.Windows.Forms.ToolStripMenuItem clienteMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem clienteToolStripMenuItem;
     }
 }
